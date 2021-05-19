@@ -1,0 +1,16 @@
+<model-viewer src="Chicken legs.glb" camera-controls environment-image="pillars_1k.hdr" shadow-intensity="1.4" exposure="1" ar ar-modes="scene-viewer webxr quick-look" ios-src="Chickens_legs.usdz" auto-rotate camera-orbit="-115.1deg 38.61deg 26.52m" min-camera-orbit="auto auto auto" max-camera-orbit="auto auto 26.52m">
+    <button class="Hotspot" slot="hotspot-1" data-position="1.733896583324892m 2.6406963886388297m 0.9496498656569345m" data-normal="0.2105624627769428m 0.7733364525216443m 0.598008512038539m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">REMBO
+            contact us
+            +6281572138666</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
